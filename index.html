@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8"/>
+		<!--<meta name="descripcion" content="descripcion breve de la pagina"/>-->
+		<!--<meta name="keywodrs" ="palabras, clave, para, el, buscador"/>-->
+		<!--<link rel="shortcut" type="image/x.icon" href="image.ico"/>-->
+			<link rel="stylesheet" type="text/css" href="jquery.mobile-1.4.5/jquery.mobile.theme-1.4.5.min.css"/>
+			<link rel="stylesheet" type="text/css" href="jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css"/>
+
+		<script type= "text/javascript" src="javascript/jquery-2.1.4.min.js"></script>
+		<script type= "text/javascript" src="jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		<script type="text/javascript" src="javascript/servicios.js"></script>
+	
+			
+
+	<title>app wikidictionary</title>
+
+
+</head>
+<body>
+
+
+	<section data-role="page"id="index"data-title="pagina index">
+		<header data-role="header">
+			<h1>wikidictionary</h1>
+			<nav data-role="navbar">
+				<ul>
+					
+						<li><a href="#">index</a></li>
+						<li><a href="#pagina2">pagina 2</a></li>
+						<li><a href="#">pagina 3</a></li>
+				
+				</ul>
+			</nav>
+		</header>
+		<article data-role="content">
+			<p> hola soy la pagina uno</p>
+			<input type="button"value="ir pagina "id="birpaginados" onClick="irPaginaDos()"/>
+		
+		</article>
+		<footer data-role="footer">
+			<h1> hola soy el pie de pagina</h1>
+		</footer>
+	</section>
+
+
+
+
+
+
+
+	<section data-role="page"id="pagina2"data-title="pagina dos">
+		<header data-role="header">
+			<h1>wikidictionary</h1>
+			<nav data-role="navbar">
+				<ul>
+					
+						<li><a href="#index">pagina 1</a></li>
+						<li><a href="#">pagina 2</a></li>
+						<li><a href="#">pagina 3</a></li>
+				
+				</ul>
+			</nav>
+		</header>
+		<article data-role="content">
+			<p> error usuario o login invalido</p>
+			<input type="button" value="volver" id="btvolver"onClick="volver()"/>
+		</article>
+		<footer data-role="footer">
+			<h1> hola soy el pie de pagina</h1>
+		</footer>
+	</section>
+
+
+
+
+
+
+
+
+	<section data-role="page"id="pagina3"data-title="pagina tres">
+		<header data-role="header">
+			<h1>wikidictionary</h1>
+			<nav data-role="navbar">
+				<ul>
+					
+						<li><a href="#">pagina 1</a></li>
+						<li><a href="#">pagina 2</a></li>
+						<li><a href="#">pagina 3</a></li>
+				
+				</ul>
+			</nav>
+		</header>
+		<article data-role="content">
+			<p> hola soy el contenido</p>
+		</article>
+		<footer data-role="footer">
+			<h1> hola soy el pie de pagina</h1>
+		</footer>
+
+	</section>
+
+
+
+</body>
+</html>
+
